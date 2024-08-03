@@ -1,0 +1,15 @@
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\bin\Debug\net8.0\TowersOfHanoi.exe
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\bin\Debug\net8.0\TowersOfHanoi.deps.json
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\bin\Debug\net8.0\TowersOfHanoi.runtimeconfig.json
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\bin\Debug\net8.0\TowersOfHanoi.dll
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\bin\Debug\net8.0\TowersOfHanoi.pdb
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.GeneratedMSBuildEditorConfig.editorconfig
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.AssemblyInfoInputs.cache
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.AssemblyInfo.cs
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.csproj.CoreCompileInputs.cache
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.sourcelink.json
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.dll
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\refint\TowersOfHanoi.dll
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.pdb
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\TowersOfHanoi.genruntimeconfig.cache
+E:\CodeProjects\TowersOfHanoi\TowersOfHanoi\obj\Debug\net8.0\ref\TowersOfHanoi.dll

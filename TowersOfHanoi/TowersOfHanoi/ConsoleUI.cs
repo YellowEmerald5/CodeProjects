@@ -25,7 +25,12 @@ internal class ConsoleUI : IUserInterface
         if (input.All(Char.IsDigit))
         {
             return Int32.Parse(input);
-        }else return -1;
+        }else
+        {
+            Console.WriteLine("Incorrect input.");
+            PromptAmountOfDiscs();
+        }
+        return -1;
     }
 
     public int[] PromptMove()
@@ -33,7 +38,10 @@ internal class ConsoleUI : IUserInterface
         Console.WriteLine("Input move:");
         var input = Console.ReadLine();
         var numbers = input.Split(" ");
-        if(numbers.Length < 2 || numbers.Length > 2 || numbers[1] == "") return new int[] {-1};
+        if(numbers.Length < 2 || numbers.Length > 2 || numbers[1] == "")
+        {
+            return IncorrectMove();
+        }
         else if (numbers[0].All(Char.IsDigit) && numbers[1].All(Char.IsDigit))
         {
             var numbersInt = new int[] { Int32.Parse(numbers[0]), Int32.Parse(numbers[1]) };
@@ -43,11 +51,10 @@ internal class ConsoleUI : IUserInterface
             }
             else
             {
-                Console.WriteLine("Incorrect move.");
-                PromptMove();
+                return IncorrectMove();
             }
         }
-        return new int[] {-1};
+        return IncorrectMove();
     }
 
     public void PromptVictory(int amountOfMoves, int optimalAmountOfMoves)
@@ -58,5 +65,11 @@ internal class ConsoleUI : IUserInterface
             Console.WriteLine("The optimal solution is: " + optimalAmountOfMoves + " amount of moves.");
         }
         Console.ReadLine();
+    }
+
+    private int[] IncorrectMove()
+    {
+        Console.WriteLine("Incorrect move.");
+        return PromptMove();
     }
 }
